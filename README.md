@@ -8,16 +8,17 @@ _The project that can be named is not the pythonic project_
 
 ## Usage
 
-1. Invoke `receiveudp.py` and send it to the background (`./receiveudp.py &)
-2. Invoke `sendudp.py` with any number of arguments, *being careful of shell intepretation/expansion*: `./sendudp Hi Mom!` or `./sendudp "Emoticons rule! ;)"`
+1. Invoke `receiveudp.py` and send it to the background (`./receiveudp.py &`)
+2. Invoke `sendudp.py` with any number of arguments, *being careful of shell intepretation/expansion*: `./sendudp.py Hi Mom!` or `./sendudp.py "Emoticons rule! ;)"`
 3. Watch your UDP message appear before your very eyes:
-sendudp.py output:
+
+  sendudp.py output:
 ```
 UDP target IP: 127.0.0.1
 UDP target port: 5005
 message: Hi Mom!
 ```
-receiveudp.py output:
+  receiveudp.py output:
 ```
 received message:  Hi Mom!
 ```
@@ -29,6 +30,7 @@ received message:  Hi Mom!
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## License
+## License and Author
 
 Absolutely no rights reserved, although a mention of my authorship would be appreciated.
+Author: Matthew Field
